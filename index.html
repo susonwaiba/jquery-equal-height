@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>jQuery Equal Height</title>
+
+    <!-- Loading Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <style type="text/css">
+    .row > div {
+        margin-bottom: 30px;
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>jQuery Equal Height <a class="float-right" href="https://github.com/susonwaiba/bootstrap-4-migrate"><svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></h1>
+        <hr>
+        <br>
+
+        <h4 id="normal-cards">Normal Cards</h4>
+        <br>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title Card title Card title Card title Card title Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- .row -->
+        <br>
+        <br>
+
+        <h4 id="cards-with-equal-height">Cards With Equal Height</h4>
+        <br>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight1">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight1">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight1">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title Card title Card title Card title Card title Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- .row -->
+        <br>
+        <br>
+
+        <h4 id="cards-with-equal-height-text">Cards With Equal Height and Text</h4>
+        <br>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight2">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight2">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight2">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title Card title Card title Card title Card title Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- .row -->
+        <br>
+        <br>
+
+        <h4 id="cards-with-equal-height-text-title">Cards With Equal Height, Text and Title</h4>
+        <br>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight3">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight3">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 jQueryEqualHeight3">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/318x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title Card title Card title Card title Card title Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- .row -->
+        <br>
+        <br>
+        <a href="https://github.com/susonwaiba/jquery-equal-height">View Repository @ Github</a>
+        <br>
+        <br>
+
+    </div>
+
+    <!-- Loading jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Loading jQuery Equal Height -->
+    <script type="text/javascript" src="js/jquery-equal-height.min.js"></script>
+    <script type="text/javascript">
+        function equal_height() {
+            // Equal Card Height
+            $('.jQueryEqualHeight1').jQueryEqualHeight();
+
+            // Equal Card Height and Text Height
+            $('.jQueryEqualHeight2').jQueryEqualHeight('.card .card-body .card-text');
+            $('.jQueryEqualHeight2').jQueryEqualHeight('.card');
+
+            // Equal Card Height, Text Height and Title Height
+            $('.jQueryEqualHeight3').jQueryEqualHeight('.card .card-body .card-title');
+            $('.jQueryEqualHeight3').jQueryEqualHeight('.card .card-body .card-text');
+            $('.jQueryEqualHeight3').jQueryEqualHeight('.card');
+        }
+        $(window).on('load', function(event) {
+            equal_height();
+        });
+        $(window).resize(function(event) {
+            equal_height();
+        });
+    </script>
+
+</body>
+</html>
