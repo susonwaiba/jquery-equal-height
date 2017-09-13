@@ -2,6 +2,8 @@
 
 A small jQuery plugin to match equal height of elements in row
 
+- [online demo](https://susonwaiba.github.io/jquery-equal-height/index.html)
+
 ## Setup
 
 ### Installation from npm
