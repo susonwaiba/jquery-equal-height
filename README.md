@@ -4,6 +4,11 @@ A small jQuery plugin to match equal height of elements in row
 
 ## Setup
 
+### Installation from npm
+```
+npm install jquery-equal-height --save
+```
+
 ### Installation from github
 
 [Download Zip](https://github.com/susonwaiba/jquery-equal-height/archive/master.zip) and copy **js/jquery-equal-height.min.js** file to your working js dir.
