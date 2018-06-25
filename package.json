@@ -1,6 +1,6 @@
 {
   "name": "jquery-equal-height",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small jQuery plugin to match equal height of elements in row",
   "main": "index.js",
   "scripts": {
