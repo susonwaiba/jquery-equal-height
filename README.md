@@ -19,8 +19,15 @@ Add "**jquery-equal-height.min.js**" to your footer after jQuery
 ```
 <!-- Loading jQuery -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<!-- Loading jQuery Equal Height -->
+<!-- Loading jQuery Equal Height for Newer version of Jquery -->
 <script type="text/javascript" src="js/jquery-equal-height.min.js"></script>
+```
+
+### For Older Version of jQuery
+
+```
+<!-- Loading jQuery Equal Height for Newer version of Jquery -->
+<script type="text/javascript" src="js/jquery-equal-height-old.min.js"></script>
 ```
 
 ### Initialize
